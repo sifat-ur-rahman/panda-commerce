@@ -11,7 +11,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./images/logo.png" alt="">
@@ -24,9 +24,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Shoes</a>
-                        <a class="nav-link" href="#">Backpack</a>
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                        <a class="nav-link" href="#Backpack">Backpack</a>
+                        <a class="nav-link" href="#Subscribe">Subscribe</a>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@
             </div>
         </section>
         <!-- shoes section  -->
-        <section class="container my-5">
+        <section id="shoes" class="container my-5">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 row-col-sm-2 g-4">
                 <div class="col">
@@ -182,7 +182,7 @@
                 </div>
             </div>
         </section>
-        <section class="container my-5">
+        <section id="Backpack" class="container my-5">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 row-col-sm-2 g-4">
                 <div class="col">
@@ -226,7 +226,7 @@
                 </div>
             </div>
         </section>
-        <section style="height: 300px;"
+        <section id="Subscribe" style="height: 300px;"
             class="container rounded-3 d-flex justify-content-center align-items-center bg-danger bg-opacity-25 ">
             <div>
                 <h2>LET'S STAY IN TOUCH</h2>
@@ -235,7 +235,7 @@
                     <div class="mb-1">
                         <input type="taxt" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <button type="submit" class="btn btn-danger">Submit</button>
+                    <button type="submit" class="btn btn-danger">Subscribe</button>
                 </form>
             </div>
         </section>
